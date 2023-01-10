@@ -1,3 +1,4 @@
+import { Head } from "next/document";
 import { ReactNode } from "react";
 import Navbar from "./navbar";
 
@@ -9,9 +10,17 @@ interface Props
 export default function Layout({ children }:Props)
 {
     return (
-        <div className="font relative">
-            <Navbar/>
-            { children }
-        </div>
+        <>
+            <Head>
+                <meta charSet="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Portfolio | Ditzler Santos</title>
+            </Head>
+            <div className="w-full h-full flex flex-col relative">
+                <Navbar/>
+                { children }
+            </div>
+        </>
     );
 }
