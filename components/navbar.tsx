@@ -1,7 +1,30 @@
 import Link from "next/link";
+import styles from '../styles/navbar.module.css';
 
 export default function Navbar()
 {
+    const showHiddenNav = () =>
+    {
+        const hidddenNav = document.getElementById('hidden-nav');
+        const hiddenNavContent = document.getElementById('hidden-nav-content');
+        
+        hidddenNav?.classList.remove('invisible');
+        hidddenNav?.classList.remove('w-0');
+        hidddenNav?.classList.add('w-full');
+        hiddenNavContent?.classList.remove('hidden');
+    }
+
+    const hideHiddenNav = () =>
+    {
+        const hidddenNav = document.getElementById('hidden-nav');
+        const hiddenNavContent = document.getElementById('hidden-nav-content');
+        
+        hidddenNav?.classList.remove('w-full');
+        hidddenNav?.classList.add('w-0');
+        hidddenNav?.classList.add('invisible');
+        hiddenNavContent?.classList.add('hidden');
+    }
+
     return (
         <>
             <div className="w-full bg-primary shadow-lg h-16 z-10">
@@ -10,7 +33,7 @@ export default function Navbar()
                         <p className="text-2xl font-semibold text-secondary">Portfolio</p>
                     </div>
                     <div className="block lg:hidden absolute top-0 right-0 h-16 flex justify-center items-center mr-5">
-                            <img className="cursor-pointer" src="./icons/hamburger.png" width="20" height="20"/>
+                            <img className="cursor-pointer" src="./icons/hamburger.png" width="20" height="20" onClick={ showHiddenNav } />
                     </div>
                     <div className="w-full hidden lg:flex flex-row justify-end pr-32">
                         <div className="flex flex-col justify-center h-16 px-6">
@@ -50,7 +73,7 @@ export default function Navbar()
                     <nav className="w-full h-16 shadow-lg flex items-center justify-center">
                         <p className="text-2xl font-semibold text-secondary">Portfolio</p>
                         <div className="absolute top-0 right-0 h-16 flex justify-center items-center mr-5">
-                            <img className="cursor-pointer" src="./icons/hamburger.png" width="20" height="20"/>
+                            <img className="cursor-pointer" src="./icons/hamburger.png" width="20" height="20" onClick={ hideHiddenNav } />
                         </div>
                     </nav>
                     <div className="flex flex-col h-auto pt-8">

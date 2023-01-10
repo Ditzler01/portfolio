@@ -1,4 +1,5 @@
-import { Head } from "next/document";
+import Head from "next/head";
+
 import { ReactNode } from "react";
 import Navbar from "./navbar";
 
@@ -7,7 +8,7 @@ interface Props
     children: ReactNode;
 }
 
-export default function Layout({ children }:Props)
+export default function Layout({ children }: Props)
 {
     return (
         <>
