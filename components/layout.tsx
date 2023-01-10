@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import { ReactNode } from "react";
 import Navbar from "./navbar";
 
@@ -17,7 +18,7 @@ export default function Layout({ children }: Props)
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Portfolio | Ditzler Santos</title>
             </Head>
-            <div className="w-full h-full flex flex-col">
+            <div className="w-full h-full flex flex-col relative">
                 <Navbar/>
                 { children }
             </div>
