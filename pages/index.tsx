@@ -1,7 +1,24 @@
 import Link from "next/link";
 
+declare global 
+{
+    var saveAs: (file: any, fileName: string) => void;
+}
+
 export default function Home() 
 {
+
+    const downloadResume = async () =>
+    {
+        var url = "./Resume - Santos, Ditzler.pdf";
+        var fileName = "Resume - Santos, Ditzler.pdf";
+        var res = await fetch(url);
+        var blob = await res.blob();
+        saveAs(blob, fileName);
+
+        window.open('./Resume - Santos, Ditzler.pdf');
+    }
+
     return (
         <>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"/>
