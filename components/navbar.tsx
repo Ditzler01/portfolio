@@ -4,7 +4,7 @@ export default function Navbar()
 {
     return (
         <>
-            <div className="w-full bg-primary shadow-lg h-16">
+            <div className="w-full bg-primary shadow-lg h-16 z-10">
                 <nav className="lg:flex flex-row h-16">
                     <div className="sm:w-full lg:w-96 h-16 flex items-center justify-center">
                         <p className="text-2xl font-semibold text-secondary">Portfolio</p>
