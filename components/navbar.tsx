@@ -18,27 +18,27 @@ export default function Navbar()
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <a className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">About</a>
+                            <Link href={'/about'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">About</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <a className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Skills</a>
+                            <Link href={'/skills'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Skills</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <a className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Projects</a>
+                            <Link href={'/projects'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Projects</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <a className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Education</a>
+                            <Link href={'/education'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Education</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <a className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Work</a>
+                            <Link href={'/work'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Work</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <a className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Contact</a>
+                            <Link href={'/contact'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Contact</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                     </div>
