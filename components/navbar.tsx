@@ -45,7 +45,7 @@ export default function Navbar()
                 </nav>
             </div>
 
-            <div className="w-full h-full absolute bg-primary top-0 righ-0 hidden">
+            <div className="w-full h-full absolute bg-primary top-0 righ-0 hidden z-[11]">
                 <div className="w-full bg-primary h-full">
                     <nav className="w-full h-16 shadow-lg flex items-center justify-center">
                         <p className="text-2xl font-semibold text-secondary">Portfolio</p>

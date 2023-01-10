@@ -9,7 +9,7 @@ interface Props
 export default function Layout({ children }:Props)
 {
     return (
-        <div className="font">
+        <div className="font relative">
             <Navbar/>
             { children }
         </div>
