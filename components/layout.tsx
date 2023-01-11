@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { ReactNode } from "react";
 import Navbar from "./navbar";
 
@@ -9,9 +10,13 @@ interface Props
 export default function Layout({ children }: Props)
 {
     return (
-        <div className="font">
-            <Navbar/>
-            { children }
-        </div>
+        <>
+            <div className="font">
+                <Navbar/>
+                { children }
+            </div>
+
+            <Script src="./js/nav.js"/>
+        </>
     );
 }
