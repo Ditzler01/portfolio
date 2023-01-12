@@ -1,4 +1,6 @@
+import Script from "next/script";
 import Head from "next/head";
+
 import { ReactNode } from "react";
 import Navbar from "./navbar";
 
@@ -23,6 +25,7 @@ export default function Layout({ children }: Props)
                 { children }
             </div>
             
+            <Script src="./js/nav.js"/>
         </>
     );
 }
