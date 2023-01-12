@@ -24,6 +24,11 @@ export default function Navbar()
         hidddenNav?.classList.add('invisible');
         hiddenNavContent?.classList.add('hidden');
     }
+    
+    const changeNavColor = () =>
+    {
+        changeNavColor();
+    }
 
     return (
         <>
@@ -37,31 +42,31 @@ export default function Navbar()
                     </div>
                     <div className="w-full hidden lg:flex flex-row justify-end pr-32">
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Home</Link>
+                            <Link href={'/'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Home</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/about'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">About</Link>
+                            <Link href={'/about'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>About</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/skills'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Skills</Link>
+                            <Link href={'/skills'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Skills</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/projects'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Projects</Link>
+                            <Link href={'/projects'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Projects</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/education'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Education</Link>
+                            <Link href={'/education'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Education</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/work'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Work</Link>
+                            <Link href={'/work'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Work</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/contact'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Contact</Link>
+                            <Link href={'/contact'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Contact</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                     </div>
