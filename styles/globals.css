@@ -5,7 +5,7 @@
 
 :root
 {
-    --primary: #f5f5f5;
+    --primary: #f0f0f0;
     --secondary: #1c1c1c;
     --tertiary: #8250df;
 }
@@ -16,6 +16,12 @@ html, body
     width: 100%;
     background-color: var(--primary);
     overflow-x: hidden;
+}
+
+#__next 
+{
+    height: 100%;
+    width: 100%;
 }
 
 .font
