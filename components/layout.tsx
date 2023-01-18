@@ -26,7 +26,7 @@ export default function Layout({ children }: Props)
                 { children }
             </div>
             
-            <Script src="../public/js/nav.js"/>
+            <Script src="./js/nav.js"/>
         </>
     );
 }
