@@ -5,7 +5,7 @@ export default function Skills()
             <div className="w-full py-12">
                 <div className="flex lg:flex-row flex-col px-4">
                     <div className="lg:w-[50%] w-full flex items-center">
-                        <img src="/images/database-final.png" className="w-full h-max"/>
+                        <img src="./images/database-final.png" className="w-full h-max"/>
                     </div>
                     <div className="2xl:w-[45%] lg:w-[50%] w-full lg:mt-0 flex justify-center flex-col lg:mt-0 mt-12 lg:px-0 px-8">
                         <p className="2xl:text-7xl lg:text-6xl md:text-6xl text-5xl text-secondary font-light lg:text-left text-center">Database</p>
@@ -35,12 +35,12 @@ export default function Skills()
                         </div>
                     </div>
                     <div className="lg:w-[50%] w-full flex items-center lg:order-2 order-1">
-                        <img src="/images/mobile-dev.png" className="w-full h-max"/>
+                        <img src="./images/mobile-dev.png" className="w-full h-max"/>
                     </div>
                 </div>
                 <div className="flex lg:flex-row flex-col px-4 mt-7">
                     <div className="lg:w-[50%] w-full flex items-center">
-                        <img src="/images/API.svg" className="w-full h-max"/>
+                        <img src="./images/API.svg" className="w-full h-max"/>
                     </div>
                     <div className="2xl:w-[45%] lg:w-[50%] w-full lg:mt-0 flex justify-center flex-col lg:mt-0 mt-12 lg:px-0 px-8">
                         <p className="2xl:text-7xl lg:text-6xl md:text-6xl text-5xl text-secondary font-light lg:text-left text-center">API</p>
@@ -66,12 +66,12 @@ export default function Skills()
                         </div>
                     </div>
                     <div className="lg:w-[50%] w-full flex items-center lg:order-2 order-1">
-                        <img src="/images/game-dev.png" className="w-full h-max"/>
+                        <img src="./images/game-dev.png" className="w-full h-max"/>
                     </div>
                 </div>
                 <div className="flex lg:flex-row flex-col px-4 mt-7">
                     <div className="lg:w-[50%] w-full flex items-center pr-4">
-                        <img src="/images/art.svg" className="w-full h-max"/>
+                        <img src="./images/art.svg" className="w-full h-max"/>
                     </div>
                     <div className="2xl:w-[45%] lg:w-[50%] w-full lg:mt-0 flex justify-center flex-col lg:mt-0 mt-12 lg:px-0 px-8">
                         <p className="2xl:text-7xl lg:text-6xl md:text-6xl text-5xl text-secondary font-light lg:text-left text-center">Multimedia Technologies</p>
@@ -96,12 +96,12 @@ export default function Skills()
                         </div>
                     </div>
                     <div className="lg:w-[50%] w-full flex items-center lg:order-2 order-1 px-8">
-                        <img src="/images/web-auto.svg" className="w-full h-max"/>
+                        <img src="./images/web-auto.svg" className="w-full h-max"/>
                     </div>
                 </div>
                 <div className="flex lg:flex-row flex-col px-4 mt-7">
                     <div className="lg:w-[50%] w-full flex items-center pr-4">
-                        <img src="/images/framework.png" className="w-full h-max"/>
+                        <img src="./images/framework.png" className="w-full h-max"/>
                     </div>
                     <div className="2xl:w-[45%] lg:w-[50%] w-full lg:mt-0 flex justify-center flex-col lg:mt-0 mt-12 lg:px-0 px-8">
                         <p className="2xl:text-7xl lg:text-6xl md:text-6xl text-5xl text-secondary font-light lg:text-left text-center">Frameworks</p>
@@ -125,7 +125,7 @@ export default function Skills()
                         </div>
                     </div>
                     <div className="lg:w-[50%] w-full flex items-center lg:order-2 order-1 px-8">
-                        <img src="/images/git.svg" className="w-full h-max"/>
+                        <img src="./images/git.svg" className="w-full h-max"/>
                     </div>
                 </div>
             </div>

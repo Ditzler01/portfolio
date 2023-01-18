@@ -4,7 +4,7 @@ export default function Contact()
         <>
             <div className="flex w-full flex-1 lg:flex-row flex-col">
                 <div className="lg:w-[50%] lg:h-full w-full flex items-center justify-center lg:mt-0 mt-20">
-                    <img src="/images/contact.svg" className="w-[80%]"/>
+                    <img src="./images/contact.svg" className="w-[80%]"/>
                 </div>
                 <div className="lg:w-[50%] w-full flex flex-col justify-center items-center lg:items-start md:px-20 px-7 lg:mt-0 mt-28">
                     <p className="2xl:text-7xl lg:text-6xl lg:text-6xl text-5xl text-secondary font-light">Contact</p>

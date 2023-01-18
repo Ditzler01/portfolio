@@ -2,7 +2,7 @@ export default function About()
 {
     return (
         <>
-            <div className="w-full flex flex-1 lg:flex-row flex-col md:items-center lg:bg-[url('/images/bg-about.png')] bg-[url('/images/geometric-background-50.png')] bg-no-repeat bg-cover z-0 bg-opacity-5 lg:bg-opacity-100">
+            <div className="w-full flex flex-1 lg:flex-row flex-col md:items-center lg:bg-[url('./images/bg-about.png')] bg-[url('./images/geometric-background-50.png')] bg-no-repeat bg-cover z-0 bg-opacity-5 lg:bg-opacity-100">
                 <div className="lg:w-[50%] w-full h-full flex items-center justify-center">
                     <img src="./images/me.png" className="max-w-[50%] h-auto rounded-full lg:mt-0 mt-32"/>
                 </div>

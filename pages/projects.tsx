@@ -5,7 +5,7 @@ export default function Projects()
             <div className="w-full flex-1 flex flex-col">
                 <p className="2xl:text-7xl lg:text-6xl md:text-6xl text-5xl text-secondary font-light text-center mt-24">Projects</p>
                 <div className="w-full flex justify-center items-center pt-32">
-                    <img src="/images/projects.svg" className="lg:w-[50%] w-[70%]"/>
+                    <img src="./images/projects.svg" className="lg:w-[50%] w-[70%]"/>
                 </div>
                 <div className="w-full flex flex-col justify-center py-20 my-5 lg:px-56 md:px-20 2xl:px-80 px-7">
                     <div className="w-full mt-20">
