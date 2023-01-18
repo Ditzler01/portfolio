@@ -38,7 +38,7 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mt-10">
+                    <div className="w-full mt-20">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-28">
                                 <p className="tex-xl font-[600] text-center">MZBC Bot</p>
@@ -53,7 +53,7 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mt-10">
+                    <div className="w-full mt-20">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-36">
                                 <p className="tex-xl font-[600] text-center">Local Fishers</p>
@@ -69,7 +69,7 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mt-10">
+                    <div className="w-full mt-20">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-36">
                                 <p className="tex-xl font-[600] text-center">Cinefind</p>
@@ -84,7 +84,7 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mt-10">
+                    <div className="w-full mt-20">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-32">
                                 <p className="tex-xl font-[600] text-center">Greenboard</p>
@@ -100,7 +100,7 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mt-10">
+                    <div className="w-full mt-20">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-32">
                                 <p className="tex-xl font-[600] text-center">Candidata</p>
@@ -116,7 +116,7 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mt-10">
+                    <div className="w-full mt-20">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-36">
                                 <p className="tex-xl font-[600] text-center">The Inverter</p>
