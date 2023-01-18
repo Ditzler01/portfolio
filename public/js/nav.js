@@ -10,6 +10,8 @@ function changeNavColor()
         indicators[i].classList.add('invisible');
         navLinks[i].classList.remove('text-tertiary');
     }
+
+    console.log(window.location.pathname);
     
     switch (window.location.pathname)
     {
