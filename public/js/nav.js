@@ -15,37 +15,37 @@ function changeNavColor()
     
     switch (window.location.pathname)
     {
-        case '/':
+        case '/portfolio/':
             indicators[0].classList.remove('invisible');
             navLinks[0].classList.remove('text-secondary');
             navLinks[0].classList.add('text-tertiary');
             break;
-        case '/about':
+        case '/portfolio/about':
             indicators[1].classList.remove('invisible');
             navLinks[1].classList.remove('text-secondary');
             navLinks[1].classList.add('text-tertiary');
             break;
-        case '/skills':
+        case '/portfolio/skills':
             indicators[2].classList.remove('invisible');
             navLinks[2].classList.remove('text-secondary');
             navLinks[2].classList.add('text-tertiary');
             break;
-        case '/projects':
+        case '/portfolio/projects':
             indicators[3].classList.remove('invisible');
             navLinks[3].classList.remove('text-secondary');
             navLinks[3].classList.add('text-tertiary');
             break;
-        case '/education':
+        case '/portfolio/education':
             indicators[4].classList.remove('invisible');
             navLinks[4].classList.remove('text-secondary');
             navLinks[4].classList.add('text-tertiary');
             break;
-        case '/work':
+        case '/portfolio/work':
             indicators[5].classList.remove('invisible');
             navLinks[5].classList.remove('text-secondary');
             navLinks[5].classList.add('text-tertiary');
             break;
-        case '/contact':
+        case '/portfolio/contact':
             indicators[6].classList.remove('invisible');
             navLinks[6].classList.remove('text-secondary');
             navLinks[6].classList.add('text-tertiary');
