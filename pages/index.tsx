@@ -22,7 +22,7 @@ export default function Home()
     return (
         <>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"/>
-            <div className="bg-[url('/public/images/geometric-background.png')] flex-1 w-full bg-no-repeat bg-cover z-0">
+            <div className="bg-[url('../public/images/geometric-background.png')] flex-1 w-full bg-no-repeat bg-cover z-0">
                 <div className="w-full h-full flex lg:flex-row flex-col flex-row">
                     <div className="flex items-center justify-center lg:w-[50%] w-[100%] lg:h-full h-[40%]">
                         <img src="./images/me.png" className="lg:max-w-[50%] lg:max-h-[50%] max-w-[80%] max-h-[80%] rounded-full" alt="Ditzler Santos"/>
