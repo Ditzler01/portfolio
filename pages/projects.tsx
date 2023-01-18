@@ -23,6 +23,21 @@ export default function Projects()
                             </p>
                         </div>
                     </div>
+                    <div className="w-full mt-20">
+                        <div className="flex flex-row items-center">
+                            <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-32">
+                                <p className="tex-xl font-[600] text-center">Write Notes</p>
+                            </div>
+                            <p className="font-[600] ml-5 text-[rgb(110,110,110)]">11/2022 - 12/2022</p>
+                        </div>
+                        
+                        <div className="w-full mt-5">
+                            <p className="text-xl">
+                                Write Notes is a website that is very similar to "Keep Notes" from Google. This project was made using a laravel Framework (PHP)
+                                and is my first project to have a responsive UI. This project was made during my training in Kredo as a part time employee.
+                            </p>
+                        </div>
+                    </div>
                     <div className="w-full mt-10">
                         <div className="flex flex-row items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-28">
