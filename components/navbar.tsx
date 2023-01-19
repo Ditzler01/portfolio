@@ -42,31 +42,31 @@ export default function Navbar()
                     </div>
                     <div className="w-full hidden lg:flex flex-row justify-end pr-32">
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Home</Link>
+                            <Link href={'/portfolio/'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Home</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/about'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>About</Link>
+                            <Link href={'/portfolio/about'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>About</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/skills'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Skills</Link>
+                            <Link href={'/portfolio/skills'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Skills</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/projects'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Projects</Link>
+                            <Link href={'/portfolio/projects'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Projects</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/education'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Education</Link>
+                            <Link href={'/portfolio/education'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Education</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/work'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Work</Link>
+                            <Link href={'/portfolio/work'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Work</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                         <div className="flex flex-col justify-center h-16 px-6">
-                            <Link href={'/contact'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Contact</Link>
+                            <Link href={'/portfolio/contact'} id="nav" className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ changeNavColor }>Contact</Link>
                             <span className="w-auto h-1 bg-tertiary rounded-3xl invisible"/>
                         </div>
                     </div>
@@ -83,25 +83,25 @@ export default function Navbar()
                     </nav>
                     <div className="flex flex-col h-auto pt-8">
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Home</Link>
+                            <Link href={'/portfolio/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Home</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">About</Link>
+                            <Link href={'/portfolio/about'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">About</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Skills</Link>
+                            <Link href={'/portfolio/skills'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Skills</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Projects</Link>
+                            <Link href={'/portfolio/projects'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Projects</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Education</Link>
+                            <Link href={'/portfolio/education'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Education</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Work</Link>
+                            <Link href={'/portfolio/work'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Work</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Contact</Link>
+                            <Link href={'/portfolio/contact'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Contact</Link>
                         </div>
                     </div>
                 </div>

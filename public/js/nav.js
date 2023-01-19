@@ -5,7 +5,7 @@ changeNavColor();
 
 function changeNavColor()
 {
-    console.log(navLinks);
+    console.log(navLinks[0]);
 
     for (var i = 0; i < indicators.length; i++)
     {   
