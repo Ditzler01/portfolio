@@ -5,13 +5,13 @@ changeNavColor();
 
 function changeNavColor()
 {
+    console.log(navLinks);
+
     for (var i = 0; i < indicators.length; i++)
     {   
         indicators[i].classList.add('invisible');
         navLinks[i].classList.remove('text-tertiary');
     }
-
-    console.log(window.location.pathname);
     
     switch (window.location.pathname)
     {
