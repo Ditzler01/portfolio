@@ -90,22 +90,22 @@ export default function Navbar()
                             <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Home</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>About</Link>
+                            <Link href={'/about'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>About</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Skills</Link>
+                            <Link href={'/skills'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Skills</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Projects</Link>
+                            <Link href={'/projects'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Projects</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Education</Link>
+                            <Link href={'/education'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Education</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Work</Link>
+                            <Link href={'/work'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Work</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Contact</Link>
+                            <Link href={'/contact'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Contact</Link>
                         </div>
                     </div>
                 </div>
