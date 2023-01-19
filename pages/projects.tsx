@@ -17,7 +17,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 Simplify is a website that has similarity to LinkedIn. It is one of my most recent freelance projects and our clients are from US. I'm
                                 responsible for backend development for this project and Next JS is the framework we are using to develop this website. 
                             </p>
@@ -32,7 +32,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 Write Notes is a website that is very similar to "Keep Notes" from Google. This project was made using a laravel Framework (PHP)
                                 and is my first project to have a responsive UI. This project was made during my training in Kredo as a part time employee.
                             </p>
@@ -47,7 +47,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 MZBC Bot is a mobile application to be used in our church. In this project, I'm currently using Flutter for development and Firebase for my backend.
                                 This project is currently on hold and will continue the development later this year.
                             </p>
@@ -62,7 +62,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 Local fishers is a freelance project that serve as registration or renewal for boat owners in the province of Orani. My client in this project
                                 is my friend and this is his thesis output. I was the backend developer of this project and we used PHP for development and no frameworks
                                 are used in this project.
@@ -78,7 +78,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 Cinefind is a web project during my 3rd year college. It is a online movie reservation that is developed using PHP.
                                 This was the very first PHP project I created without any frameworks used.
                             </p>
@@ -93,7 +93,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 Greenboard is a web application that is a project repository and a C++ code execution. In this project, we intergrated an API that will automatically
                                 execute a C++ code that was submitted through Greenboard. It was a term project during my 3rd year college and was developed
                                 using PHP as our main programming language.
@@ -109,7 +109,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 Candidata is web application term project that provides the details of the candidates during election. The project providesdetails such as 
                                 candidate's platform, projects, accomplisments, previous jobs and many more. This web application was developed using Angular and Typescript.
                                 I was the one who developed the backend side of this project.
@@ -125,7 +125,7 @@ export default function Projects()
                         </div>
                         
                         <div className="w-full mt-5">
-                            <p className="text-xl">
+                            <p className="text-xl lg:text-start text-justify">
                                 The Inverter was the game I developed during an event called "GameJam". It is basically a challenge for game developers around the world
                                 to create a game within a week based on the theme they gave. The theme that time was "Rewind" and I was able to create a 3D game and have
                                 succesfully submitted this project into the GameJam.
