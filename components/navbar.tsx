@@ -7,22 +7,26 @@ export default function Navbar()
     {
         const hidddenNav = document.getElementById('hidden-nav');
         const hiddenNavContent = document.getElementById('hidden-nav-content');
+        const body = document.getElementById('__next');
         
         hidddenNav?.classList.remove('invisible');
         hidddenNav?.classList.remove('w-0');
         hidddenNav?.classList.add('w-full');
         hiddenNavContent?.classList.remove('hidden');
+        body?.classList.add('overflow-y-hidden');
     }
 
     const hideHiddenNav = () =>
     {
         const hidddenNav = document.getElementById('hidden-nav');
         const hiddenNavContent = document.getElementById('hidden-nav-content');
+        const body = document.getElementById('__next');
         
         hidddenNav?.classList.remove('w-full');
         hidddenNav?.classList.add('w-0');
         hidddenNav?.classList.add('invisible');
         hiddenNavContent?.classList.add('hidden');
+        body?.classList.remove('overflow-y-hidden');
     }
     
     const changeNavColor = () =>
@@ -83,25 +87,25 @@ export default function Navbar()
                     </nav>
                     <div className="flex flex-col h-auto pt-8">
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Home</Link>
+                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Home</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/about'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">About</Link>
+                            <Link href={'/about'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>About</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/skills'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Skills</Link>
+                            <Link href={'/skills'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Skills</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/projects'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Projects</Link>
+                            <Link href={'/projects'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Projects</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/education'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Education</Link>
+                            <Link href={'/education'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Education</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/work'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Work</Link>
+                            <Link href={'/work'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Work</Link>
                         </div>
                         <div className="w-full py-5 text-center">
-                            <Link href={'/contact'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer">Contact</Link>
+                            <Link href={'/contact'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Contact</Link>
                         </div>
                     </div>
                 </div>
