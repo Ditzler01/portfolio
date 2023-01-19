@@ -28,8 +28,8 @@ export default function Home()
                         <img src="./images/me.png" className="lg:max-w-[50%] lg:max-h-[50%] max-w-[80%] max-h-[80%] rounded-full" alt="Ditzler Santos"/>
                     </div>
                     <div className="flex flex-col lg:justify-center lg:items-start items-center lg:w-[50%] w-[100%] lg:h-full h-[60%]">
-                        <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] text-[3rem] md:font-thin font-semibold">Hello!</p>
-                        <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] sm:text-[3rem] text-[2.3rem] md:font-thin font-semibold">I'm Ditzler Santos</p>
+                        <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] text-[3rem] md:font-thin font-normal">Hello!</p>
+                        <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] sm:text-[3rem] text-[2.3rem] md:font-thin font-normal">I'm Ditzler Santos</p>
                         <p className="2xl:text-[1.8rem] xl:text-[1.5rem] lg:text-[1.3rem] md:text-[2rem] sm:text-[1.5rem] text-[1.3rem] font-[500] pl-2">
                             I am an
                             <span className="text-tertiary"> application developer</span>
