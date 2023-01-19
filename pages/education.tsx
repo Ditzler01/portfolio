@@ -26,7 +26,7 @@ export default function Edication()
                     <div className="mt-10 w-full lg:px-7">
                         <div className="flex lg:flex-row flex-col items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-72">
-                                <p className="tex-xl font-[600] text-center">Saint Peter of Veronica Academey</p>
+                                <p className="tex-xl font-[600] text-center">Saint Peter of Veronica Academy</p>
                             </div>
                             <div className="flex lg:flex-col flex-row lg:mt-0 mt-5">
                                 <p className="font-[600] ml-5 text-secondary">Senior High</p>
