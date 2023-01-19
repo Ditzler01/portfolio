@@ -24,7 +24,7 @@ export default function Work()
                             <p className="font-[400] ml-1 text-secondary text-lg">- Give tips and help interns in their code problems</p>
                         </div>
                     </div>
-                    <div className="mt-16 w-full lg:px-7">
+                    <div className="mt-16 w-full lg:px-7 lg:mb-0 mb-7">
                         <div className="flex lg:flex-row flex-col items-center">
                             <div className="py-2 px-2 shadow-[rgba(0,0,0,0.1)_0px_6px_24px_0px,_rgba(0,0,0,0.4)_0px_0px_0px_1px] rounded-full w-44">
                                 <p className="tex-xl font-[600] text-center">Lamina Studios</p>
