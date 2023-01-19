@@ -7,7 +7,6 @@ function changeNavColor()
 
     for (var i = 0; i < indicators.length; i++)
     {   
-        console.log(indicators[i]);
         indicators[i].classList.add('invisible');
         navLinks[i].classList.remove('text-tertiary');
     }
