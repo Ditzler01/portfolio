@@ -29,20 +29,20 @@ export default function Home()
                     </div>
                     <div className="flex flex-col lg:justify-center lg:items-start items-center lg:w-[50%] w-[100%] lg:h-full h-[60%]">
                         <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] text-[3rem] font-thin">Hello!</p>
-                        <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] text-[3rem] font-thin">I'm Ditzler Santos</p>
+                        <p className="2xl:text-[6rem] xl:text-[5.5rem] lg:text-[4rem] md:text-[5rem] sm:text-[4rem] sm:text-[3rem] text-[2.3rem] font-thin">I'm Ditzler Santos</p>
                         <p className="2xl:text-[1.8rem] xl:text-[1.5rem] lg:text-[1.3rem] md:text-[2rem] sm:text-[1.5rem] text-[1.3rem] font-[500] pl-2">
                             I am an
                             <span className="text-tertiary"> application developer</span>
                         </p>
-                        <div className="grid grid-rows-2 grid-cols-2 gap-4 pl-2 mt-4">
+                        <div className="grid grid-rows-2 grid-cols-2 gap-4 mt-4">
                             <Link href={'/about'}>
-                                <div className="flex justify-center items-center flex-row w-40 h-12 bg-secondary rounded-full cursor-pointer">
-                                    <p className="text-primary text-lg font-semibold">About Me</p>
+                                <div className="flex justify-center items-center flex-row h-12 bg-secondary rounded-full cursor-pointer px-5 hover:bg-[rgb(40,40,40)]">
+                                    <p className="text-primary text-lg">About Me</p>
                                     <img src="./icons/user.png" className="max-w-[20px] max-h-[20px] ml-3" alt="About Me"/>
                                 </div>
                             </Link>
-                            <div className="flex justify-center items-center flex-row w-40 h-12 bg-secondary rounded-full cursor-pointer" onClick={downloadResume}>
-                                <p className="text-primary text-lg font-semibold">Resume</p>
+                            <div className="flex justify-center items-center flex-row h-12 bg-secondary rounded-full cursor-pointer px-3 hover:bg-[rgb(40,40,40)]">
+                                <p className="text-primary text-lg">Resume</p>
                                 <img src="./icons/download.png" className="max-w-[20px] max-h-[20px] ml-3" alt="About Me"/>
                             </div>
                         </div>
