@@ -87,7 +87,7 @@ export default function Navbar()
                     </nav>
                     <div className="flex flex-col h-auto pt-8">
                         <div className="w-full py-5 text-center">
-                            <Link href={'/'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Home</Link>
+                            <Link href={'./'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>Home</Link>
                         </div>
                         <div className="w-full py-5 text-center">
                             <Link href={'/about'} className="text-secondary text-lg font-semibold hover:text-tertiary cursor-pointer" onClick={ hideHiddenNav }>About</Link>
